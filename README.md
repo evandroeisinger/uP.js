@@ -1,0 +1,4 @@
+promy
+=====
+
+Little promise library.
