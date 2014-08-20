@@ -5,7 +5,7 @@
   "authors": [
     "evandroeisinger"
   ],
-  "description": "A agnostic and lightweight javaScript promise library.",
+  "description": "A agnostic and lightweight javascript promise library.",
   "main": "src/uP.min.js",
   "keywords": [
     "promise",

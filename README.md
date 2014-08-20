@@ -1,5 +1,5 @@
 # uP.js
-A agnostic and lightweight javaScript promise library.
+A agnostic and lightweight javascript promise library.
 
 ## Methods
 * <code>uP.resolve( args );</code>
