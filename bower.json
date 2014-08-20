@@ -1,0 +1,21 @@
+{
+  "name": "uP",
+  "version": "1.0.0",
+  "homepage": "https://github.com/evandroeisinger/uP",
+  "authors": [
+    "evandroeisinger"
+  ],
+  "description": "A agnostic and lightweight javaScript promise library.",
+  "main": "src/uP.min.js",
+  "keywords": [
+    "promise",
+    "callback",
+    "library",
+    "js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ]
+}

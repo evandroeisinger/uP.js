@@ -1,0 +1,11 @@
+{
+  "name": "uP",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-jasmine": "^0.3.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  }
+}
