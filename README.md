@@ -35,3 +35,6 @@ var p = new uP();
 
 		});
 ```
+
+### Bower
+<code>bower install uP.js;</code>
