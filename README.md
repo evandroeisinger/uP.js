@@ -2,27 +2,36 @@
 A agnostic and lightweight javascript promise library.
 
 ## Methods
-* <code>uP.resolve( args );</code>
-* <code>uP.then( resolveCallback );</code>
+* <code>uP.resolve( arguments );</code>
+* <code>uP.then( callback );</code>
 
 ```js
 
 var p = new uP();
 
-function test( delay ) {
-  
-  setTimeout(function(){
-    
-    p.resolve();
+function get( data ) {
 
-  }, delay);
+	setTimeout(function(){
 
-  return p;
+		p.resolve( data );
+
+	}, 500 );
+
+	return p;
+
 };
 
-test( 500 ).then(function( data ) {
-  
-  console.log( data );
+get('Knowledge')
+	.then(function( data ) {
 
-});
+		console.log(data);
+
+		return get('Money!');
+
+	})
+	.then(function(data) {
+
+		console.log(data);
+
+	});
 ```
