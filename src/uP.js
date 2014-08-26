@@ -1,4 +1,4 @@
-(function( global ){
+(function(global){
 
 	'use strict';
 	
@@ -12,7 +12,7 @@
 
 		resolve: function() {
 
-			this.promises[0].apply( this, arguments );
+			this.promises[0].apply(this, arguments);
 			this.promises.shift();
 
 		},
@@ -29,4 +29,4 @@
   
 	global.uP = uP;
 
-})( this );
+})(this);

@@ -1,0 +1,1 @@
+(function(e){"use strict";function t(){this.promises=[]}t.prototype={resolve:function(){this.promises[0].apply(this,arguments);this.promises.shift()},then:function(e){this.promises.push(e);return this}};e.uP=t})(this)
