@@ -21,17 +21,17 @@
 
 		};
 
-		get('Knowledge')
+		get('Knowledge!')
 			.then(function( data ) {
 
-				console.log(data);
+				alert(data);
 
 				return get('Money!');
 
 			})
 			.then(function(data) {
 
-				console.log(data);
+				alert(data);
 
 			});
 
