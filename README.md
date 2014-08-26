@@ -3,19 +3,21 @@ A agnostic and lightweight javascript promise library.
 
 ## Methods
 * <code>uP.resolve( args );</code>
-* <code>uP.reject( args );</code>
-* <code>uP.then( resolveCallback, rejectCallback );</code>
+* <code>uP.then( resolveCallback );</code>
 
 ```js
+
+var p = new uP();
+
 function test( delay ) {
   
   setTimeout(function(){
     
-    uP.resolve();
+    p.resolve();
 
   }, delay);
 
-  return uP;
+  return p;
 };
 
 test( 500 ).then(function( data ) {

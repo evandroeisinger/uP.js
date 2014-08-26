@@ -5,6 +5,36 @@
 	</head>
 	<body>
 		<script src="src/uP.js"></script>
-		<script></script>
+		<script>
+
+		var p = new uP();
+
+		function get( data ) {
+		
+			setTimeout(function(){
+
+				p.resolve( data );
+
+			}, 500 );
+
+			return p;
+
+		};
+
+		get('Knowledge')
+			.then(function( data ) {
+
+				console.log(data);
+
+				return get('Money!');
+
+			})
+			.then(function(data) {
+
+				console.log(data);
+
+			});
+
+		</script>
 	</body>
 </html>
