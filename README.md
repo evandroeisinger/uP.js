@@ -38,5 +38,5 @@ var p = new uP();
 
 ### Bower
 ```
-bower install uP.js
+bower install up.js
 ```
