@@ -20,7 +20,6 @@
 		then: function(callback) {
 
 			this.promises.push(callback);
-
 			return this;
 
 		}

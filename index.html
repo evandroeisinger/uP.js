@@ -9,11 +9,11 @@
 
 		var p = new uP();
 
-		function get( data ) {
+		function get(data) {
 		
 			setTimeout(function(){
 
-				p.resolve( data );
+				p.resolve(data);
 
 			}, 500 );
 
@@ -22,7 +22,7 @@
 		};
 
 		get('Knowledge!')
-			.then(function( data ) {
+			.then(function(data) {
 
 				alert(data);
 
