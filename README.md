@@ -9,20 +9,20 @@ A agnostic and lightweight javascript promise library.
 
 var p = new uP();
 
-	function get( data ) {
+	function get(data) {
 	
 		setTimeout(function(){
 
-			p.resolve( data );
+			p.resolve(data);
 
-		}, 500 );
+		}, 500);
 
 		return p;
 
 	};
 
 	get('Knowledge!')
-		.then(function( data ) {
+		.then(function(data) {
 
 			alert(data);
 
