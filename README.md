@@ -1,4 +1,4 @@
-# uP.js
+# µP.js
 A agnostic and lightweight javascript promise library.
 
 ## Methods
